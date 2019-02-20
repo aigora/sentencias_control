@@ -1,6 +1,6 @@
 /*
-Nombra Marcos Calderon Jimeno
-Grupo Q203
+Autor Marcos Calderon Jimeno
+Grupo Q103
 Descripcion raices de ec segundo grado
 */
 #include<stdio.h> 
@@ -23,7 +23,7 @@ printf("x1=%.2f \t x2=%.2f", x1, x2);
 else if(disc == 0)
 { 
 x1 = -b / (2 * a); 
-printf("Raíz única %.2f", x1); 
+printf("RaÃ­z Ãºnica %.2f", x1); 
 }
 if(disc <0)
 printf("no existe solucion\n");
