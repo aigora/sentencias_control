@@ -1,7 +1,7 @@
 /*
 Autor: Carlos Cruz Bojana
 Grupo: Q103
-Descripción: Programa que calcula la dureza del agua.
+DescripciÃ³n: Programa que calcula la dureza del agua.
 */
 
 #include <stdio.h>
