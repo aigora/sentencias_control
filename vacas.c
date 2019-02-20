@@ -1,6 +1,6 @@
-/*Tom·s Alda
-Grupo Q102
-DescripciÛn: este programa diferencia el embarazo de una vaca y las separa por si hay posibles problemas en funciÛn de su peso y su edad.
+/*Tom√°s Alda
+Grupo Q103
+Descripci√≥n: este programa diferencia el embarazo de una vaca y las separa por si hay posibles problemas en funci√≥n de su peso y su edad.
 */
 #include <stdio.h>
 int main(){
