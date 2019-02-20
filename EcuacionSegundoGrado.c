@@ -1,7 +1,7 @@
 /*
 Autor: Diego Medina
 Grupo:103
-Descaripción: Este programa resuelve una ecuación de segundo grado a partir de introducir los terminos a,b y c. 
+DescaripciÃ³n: Este programa resuelve una ecuaciÃ³n de segundo grado a partir de introducir los terminos a,b y c. 
 Ademas detecta si no existe resultado y te lo comunica 
 */
 #include <stdio.h>
@@ -10,7 +10,6 @@ Ademas detecta si no existe resultado y te lo comunica
 int main()
 
 {
-	int ascii;
 	float a,b,c,resultado1,resultado2;
 	
 	printf("*RESOLVER ECUACIONES DE SEGUNDO GRADO*\n");
@@ -28,8 +27,7 @@ scanf("%f", &c);
 
 resultado1= (-b+(sqrt(b*b-4*a*c)))/2*a;      //raiz positiva//
 resultado2= (-b-(sqrt(b*b-4*a*c)))/2*a;     //raiz negativa//
-ascii=resultado1*0;
-if (ascii==0 )   	//un numero real multiplicado por 0 es siempre 0//
+if (b*b-4*a*c>=0)
 {
 
 	printf("x1= %.1f\n", resultado1);
