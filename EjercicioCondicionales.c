@@ -1,51 +1,38 @@
-/* 
-Autora: Vanesa Díaz
-Grupo: Q103
-Descripción: Este programa te calcula el precio de unas entradas y dependiendo de la edad y del numero hijos tienes descuentos o no.
-*/
+#include <stdio.h>
+// Autor: Javier Palomeque
+// Grupo: Q103
 
-#include<stdio.h>
-
-int main(){
-	int edad, numHijos, numEntradasAdultos, numEntradasNino;
-	float precioAdulto=40.5,precioNino=25, precioDescuentoF, precioDescuentoJ,precioGeneral;
+int main() {
+	int edad, coche;
 	
-	printf("Bienvenido al comprador online de entradas\n");
-	printf("Indique en numero de hijos: ");
-	scanf("%d",&numHijos);
+	printf("Introduce tu edad\n");
+	scanf("%i", &edad);
 	
-	if(numHijos>=3) {
-		printf("Por ser familia numerosa tiene un descuento del 30 por ciento en sus entradas\n");
-		printf("Introduce el numero de entradas adultos (mayores de 12 anos): ");
-		scanf("%d",&numEntradasAdultos);
-		printf("Introduce el numero de entradas de ninos (menores de 12 anos): ");
-		scanf("%d",&numEntradasNino);
-		
-		precioDescuentoF=numEntradasAdultos*precioAdulto+numEntradasNino*precioNino-((numEntradasAdultos*precioAdulto+numEntradasNino*precioNino)*0.3);
-		printf("Su precio total es de %.2f euros\n",precioDescuentoF);
+	if (edad < 18) {
+		printf("No tienes edad para conducir\n");
 	}
-	else if (numHijos<3) {
-		printf("Introduzca su edad: ");
-		scanf("%d",&edad);
-		if(edad>=65) {
-			printf("Por ser jubilado tiene un descuento del 50 por ciento\n");
-			printf("Introduce el numero de entradas: ");
-			scanf("%d",&numEntradasAdultos);
-			
-			precioDescuentoJ=(numEntradasAdultos*precioAdulto)-(numEntradasAdultos*precioAdulto*0.5);
-			printf("Su precio total es de %.2f euros\n",precioDescuentoJ);
+	else {
+	    printf("Elige un coche: 1.Ferrari, 2.Lamborghini, 3.Audi, 4.Mercedes, 5.BMW\n");
+	    scanf("%i", &coche);
+	    if (coche == 1) {
+	    	printf ("Disfruta de tu nuevo Ferrari\n");	
 		}
-		else if(edad<65){
-			printf("Introduce el numero de entradas adultos (mayores de 12 anos): ");
-			scanf("%d",&numEntradasAdultos);
-			printf("Introduce el numero de entradas de ninos (menores de 12 anos): ");
-			scanf("%d",&numEntradasNino);
-			
-			precioGeneral=numEntradasAdultos*precioAdulto+numEntradasNino*precioNino;
-			printf("Su precio total es de %.2f euros\n",precioGeneral);
-		}
-	}
-	printf("Gracias por su compra\n");
+	    else 
+	    if (coche == 2) {
+	    	printf ("Disfruta de tu nuevo Lamborghini\n");
+	    }
+		else
+		if (coche == 3){
+			printf ("Disfruta de tu nuevo Audi\n");
+	    }  
+	    if (coche == 4) {
+	    	printf ("Disfruta de tu nuevo Mercedes\n");
+	    }
+		else
+		if (coche == 5) {
+	    	printf ("Disfruta de tu nuevo BMW\n");
+	    }
+    }
+    
+	printf("Fin del programa");
 }
-
-
