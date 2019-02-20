@@ -1,3 +1,8 @@
+/*Autora: Hanan El Boudakhani Ballafkih
+ nº54576
+ descripcion: Introduce una nota del 1-10 para decirte si estás aprobado o no*/
+
+
 #include <stdio.h>
 int main(){
 	float nota;
