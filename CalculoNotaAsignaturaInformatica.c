@@ -38,7 +38,7 @@ int main (){
     nota_asignatura=((nota_examen_1)*0.25+(nota_examen_2)*0.35+(nota_trabajo)*0.3+(nota_pruebas_extra*0.1));
     
     
-    printf("Tu nota en la asignatura seria: %1.f\n", nota_asignatura);
+    printf("Tu nota en la asignatura seria: %.1f\n", nota_asignatura);
     printf("Aunque la media de >= 5 solo se puede hacer media si todas las partes estan aprobadas");
     
     return 0;
