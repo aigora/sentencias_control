@@ -1,54 +1,41 @@
-/*
-autor: Pedro Muñoz Redondo
-grupo: Q103
-numero matricula: 54121
-descripción: juego de piedra papel y tijera
-*/
-#include <stdio.h>
-int main()
+/* Autor: Hugo García Las Heras 53344
+Grupo: Q-203
+Descripción: Se trata de un programa que permite a dos jugadores jugar al juego de piedra, papel o tijera */
+
+int main ()
 {
-	int jugador1,jugador2;
-	printf("1 jugador: piedra(1), papel(2), tijera(3)\n");
-	scanf("%d",&jugador1);
-	printf("2 jugador: piedra(1), papel(2), tijera(3)\n");
-	scanf("%d",&jugador2);
-	if(jugador1 == 1 && jugador2==1)
-	{
-		printf("empate");
-	}
-	else if(jugador1 ==2 && jugador2==2)
-	{
-		printf("empate");
-	}
-	else if(jugador1 ==3 && jugador2==3)
-	{
-		printf("empate");
-	}
-	else if(jugador1 ==1 && jugador2==2)
-	{
-		printf("gana papel jugador 2");
-	}
-	else if(jugador1 ==1 && jugador2==3)
-	{
-		printf("ganan piedra jugador 1");
-	}
-	else if(jugador1 ==2 && jugador2==1)
-	{
-		printf("gana papel jugador 1");
-	}
-	else if(jugador1 ==2 && jugador2==3)
-	{
-		printf("gana tijera jugador 2");
-	}
-	else if(jugador1 ==3 && jugador2==1)
-	{
-		printf("gana piedra jugador 1");
-	}
-	else if(jugador1 ==3 && jugador2==2)
-	{
-		printf("gana tijera,jugador 2");
-	}
-	else
-		printf("opcion incorrecta");
-	return 0;
+char jugador1, jugador2  ;
+printf("Introduzca la jugada de los dos jugadores(Papel,P,Tijera,T,Piedra,I) separada por comas\n");
+scanf("%c,%c",&jugador1,&jugador2);
+	
+if((jugador1=='P')&&(jugador2=='I'))
+printf("P-I.Papel envuelve la piedra, gana jugador1\n");
+
+else if ((jugador1=='T')&&(jugador2=='P'))
+   printf("T-P.Tijera corta a papel, gana jugador1\n");
+	
+else if ((jugador1=='I')&&(jugador2=='T'))
+   printf("I-T.Piedra machaca a tijera, gana jugador1\n");
+	
+else if ((jugador1=='I')&&(jugador2='P'))
+	printf("I-P.Piedra envuelta por piedra, gana jugador2\n");
+	
+else if ((jugador1=='P')&&(jugador2=='T'))
+	printf("P-T.Papel es cortado por tijera, gana jugador2\n");
+	
+else if ((jugador1=='T')&&(jugador2=='I'))
+	printf("T-I.Tijeras son machacadas por piedra, gana jugador2 \n");
+	
+else if ((jugador1=='P')&&(jugador2=='P'))
+    printf("P-P.Se produce un empate\n");
+    
+else if ((jugador1=='I')&&(jugador2=='I'))
+    printf("I-I.Se produce un empate\n");
+
+else if ((jugador1=='T')&&(jugador2=='T'))
+    printf("T-T.Se produce un empate\n");
+
+else
+	printf("La tecla introducida no corresponde a ninguna del juego, error\n");
+return 0;
 }
