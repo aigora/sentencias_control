@@ -1,7 +1,7 @@
-/* Autor: Hugo García Las Heras 53344
+/* Autor: Hugo GarcÃ­a Las Heras 53344
 Grupo: Q-203
-Descripción: Se trata de un programa que permite a dos jugadores jugar al juego de piedra, papel o tijera */
-
+DescripciÃ³n: Se trata de un programa que permite a dos jugadores jugar al juego de piedra, papel o tijera */
+#include <stdio.h>
 int main ()
 {
 char jugador1, jugador2  ;
