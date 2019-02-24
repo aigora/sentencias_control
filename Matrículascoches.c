@@ -1,8 +1,7 @@
-//autor:Samuel Hornsby Altares
-//grupo:Q103
-//*descripción: Este programa identifica las matriculas de coches de forma par-impar. Si es par, 
-//no puedes aparcar y, si es impar,puedes aparcar en una zona u otra dependiendo del distintivo de 
-//contaminacion que tengas.*//
+/*Autor:Samuel Hornsby Altares 
+//Grupo Q-103
+Descripcion: Matricula par o impar. Si es par puede aparcar, si es imapr depende de la contaminación
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
