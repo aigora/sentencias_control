@@ -31,7 +31,8 @@ void explicacion(void)
 	printf("El usuario lo introduce y el programa imprime en\n" 
 	"pantalla el factorial de dicho numero\n\n");
 }
-/*Nota:hay un pequeño error, ya que el programa comienza 
+/*Nota:hay un pequeÃ±o error, ya que el programa comienza 
 a imprimir factoriales negativos a partir del numero 17.
 A parit del numero 34, todos los factoriales que aparecen
 en pantalla son 0.*/
+
