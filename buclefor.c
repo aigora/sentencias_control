@@ -1,18 +1,21 @@
-#include<stdio.h>
-#include<math.h>
-// miguel angel rodrigo garcia
-//q103
-//tablas de multiplicacion.
+
+// Nombre : Javier Benavides Muñoz
+// Grupo : Q103
+// Deescripcion : Suma de los 10 primeros enteros
+
+
+#include <stdio.h>
 int main()
 {
-	int i,j;
-	for(i=1;i<=10;i++)
-	{
-		printf("tabla del %d\n",i);
-		
-		for(j=1;j<=10;j++)
-		printf("%d x %d=d%\n",i,j,i*j);
-	
-	}
-	return 0;
+int i, suma = 0, n = 10;
+
+for (i = 1; i <= n; i++)
+{
+suma += i;
+}
+
+printf("La suma de los %d primeros enteros es %d",n, suma);
+
+return 0;
+
 }
