@@ -19,7 +19,7 @@ int main() {
 	    }
 	}
 	else if (num==2){
-		printf ("Nueros pares del 1 al 50:\n");
+		printf ("Numeros pares del 1 al 50:\n");
 		for (i=2; i<=50; i+=2){
 		    printf ("%i ", i);
 	    }
