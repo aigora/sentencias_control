@@ -1,3 +1,8 @@
+/*
+Autora: Carmen Mourelle
+Grupo: Q103
+*/
+
 #include <stdio.h>
 int main() {
 	int n,i,a=0,b=100;
