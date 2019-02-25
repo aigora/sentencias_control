@@ -7,8 +7,8 @@ descripcion: ejemplo basico de un bulce que muestra una sucesion de numeros */
 
 int main() {
 int i ;
-for (i=0; i<10^10;i++) {
-	printf(" los Iphone son basura %i \n",i);
+for (i=0; i<100;i++) {
+	printf(" numeros del 1 al 100 %i \n",i);
 }
 }
 
