@@ -1,13 +1,13 @@
 /*
-Autora: María Canga
+Autora: MarÃ­a Canga
 Grupo: Q-103
-Descripción: Números pares o impares del 1 al 50
+DescripciÃ³n: NÃºmeros pares o impares del 1 al 50
 */
 
 #include <stdio.h>
 
 int main() {
-	int i, num, num1, cont=0;
+	int i, num;
 	
 	printf ("1- Numeros impares / 2- Numeros pares\n");
 	scanf ("%i", &num);
