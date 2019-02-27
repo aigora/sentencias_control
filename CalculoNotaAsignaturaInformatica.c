@@ -1,4 +1,4 @@
-//Marina Polo Vera 54809 Q103
+//Marina Polo Vera Q103
 //Calculo de la nota de la asignatura de Informatica
 
 #include<stdio.h>
