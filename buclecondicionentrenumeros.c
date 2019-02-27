@@ -1,12 +1,12 @@
-/* Autor:Hugo García Las Heras
+/* Autor:Hugo GarcÃ­a Las Heras
 Grupo:Q-203
-Descripción: El usuario introduce dos numeros enteros y el ordenador imprime por pantalla los numeros entre ellos dos que sean múltiplos de 7 siempre y cuando el segundo número introducido sea mayor 
+DescripciÃ³n: El usuario introduce dos numeros enteros y el ordenador imprime por pantalla los numeros entre ellos dos que sean mÃºltiplos de 7 siempre y cuando el segundo nÃºmero introducido sea mayor 
 que el primero y que ambos sean mayores de cero */
 #include<stdio.h>
 void main()
 {
 	int x , y , i; 
-    do 
+       do 
 	{
 	printf("Introduce el primer numero:\n");
 	scanf("%d",&x);
