@@ -1,3 +1,8 @@
+/*
+Autora: Vanesa Díaz Baños
+Grupo: Q103
+Descripción: Ejercicio realizado con un bucle que te indica el día de la semana dependiendo del número introducido por el usuario
+*/
 #include<stdio.h>
 
 int main(){
